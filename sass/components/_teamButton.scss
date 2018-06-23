@@ -1,18 +1,18 @@
 @import '../variables';
 
-.team-button-group {
   .team-button-gryffindor {
     background-color: $gryffindor;
+    @include default-font(20px);
   }
   .team-button-slytherin {
     background-color: $slytherin;
+    @include default-font(20px);
   }
   .team-button-ravenclaw {
     background-color: $ravenclaw;
+    @include default-font(20px);
   }
   .team-button-hufflepuff {
     background-color: $hufflepuff;
+    @include default-font(20px);
   }
-}
-
-// not neccessary that it is nested
