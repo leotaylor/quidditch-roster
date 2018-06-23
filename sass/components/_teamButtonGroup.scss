@@ -1,0 +1,7 @@
+  .team-button-group {
+    display: flex;
+    justify-content: center;
+    & > * {
+      margin: 0 20px;
+    }
+  }
